@@ -18,6 +18,7 @@ if __name__ == "__main__":
         "server",
         "manage",
         "upload",
+        "pt",
     }
     if len(sys.argv) < 2:
         raise ValueError(f"CLI requires a subcommand in {subcommands}")
